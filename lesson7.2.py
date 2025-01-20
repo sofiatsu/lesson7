@@ -6,7 +6,7 @@ def correct_sentence(text):
             text_a += '.'
         if not text_b.endswith('.'):
             text_b += '.'
-        (text_a, text_b) = text_a.capitalize(), text_b.capitalize()
+        text_a, text_b = text_a.capitalize(), text_b.capitalize()
         second_text = ' ' + text_b if ' ' + text_b != ' .' else ''
         new_text = text_a + second_text
         return new_text
