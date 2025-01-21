@@ -1,10 +1,8 @@
 def second_index(text, some_str):
     n = text.find(some_str)
     num = text.find(some_str, n + 1)
-
     if num == -1:
         return None
-
     return num
 
 
